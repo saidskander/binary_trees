@@ -1,9 +1,9 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_t - binary tree node.
- * @parent: binary_tree_t *parent
- * @value: int value
+ * binary_tree_t *binary_tree_node - binary tree node.
+ * @parent : binary_tree_t *parent
+ * @value : int value
  * Return: error - NULL else a pointer to the new node
  */
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
